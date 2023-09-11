@@ -39,6 +39,7 @@
 }
 
 .salary-number p,
-.taxes-number p {
+.taxes-number p,
+.total-numbers {
   font-family: "Stardos Stencil", cursive;
 }
