@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="dist/main.css" />
     <title>advanced table</title>
   </head>
@@ -86,9 +92,9 @@
       </div>
     </div>
     <div
-      class="table-container w-[1480px] flex flex-col max-w-[1480px] mt-[2rem] mx-auto border border-gray-300 rounded-md bg-gray-100"
+      class="table-container w-[1480px] flex flex-col max-w-[1480px] mt-[2rem] mx-auto rounded-md bg-gray-100"
     >
-      <div class="table-header flex flex-row p-2 justify-between">
+      <div class="table-header flex flex-row px-1 py-2 justify-between">
         <div class="header-icons-left flex flex-row gap-1">
           <div
             class="list-number w-[55px] h-[30px] flex items-center px-2 py-2 gap-2 bg-[#fff] border rounded-[4px] shadow-sm border-gray-300 cursor-pointer"
@@ -173,6 +179,356 @@
               />
             </div>
           </div>
+        </div>
+      </div>
+      <div
+        class="table-categories w-[1480px] px-2 pt-3 max-w-[1480px] mx-auto flex flex-row items-center"
+      >
+        <div class="checkbox">
+          <input type="checkbox" />
+        </div>
+        <div class="hashtag ml-[14px] shrink-0">
+          <img src="images/hashtag-svgrepo-com.svg" width="15px" alt="" />
+        </div>
+        <div class="name ml-14 pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Name</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="postion ml-36 pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Position</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="seniority ml-[9rem] pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Seniority</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="project ml-[8rem] pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Project</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="salary ml-[5rem] pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Salary</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="taxes ml-[4rem] pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Taxes</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="active ml-[4rem] pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Active</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="hired ml-[3rem] pb-1 flex items-center gap-1 shrink-0 shrink-0"
+        >
+          <p class="font-bold">Hired Since</p>
+          <div class="chevron-icon pt-1">
+            <img
+              src="images/chevron-up-chevron-down-svgrepo-com.svg"
+              width="13px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="action ml-[3rem] pb-1 flex items-center gap-1 shrink-0">
+          <p class="font-bold">Actions</p>
+          <div class="chevron-icon pt-1"></div>
+        </div>
+      </div>
+      <div
+        class="col-1 w-[1480px] px-2 py-1 max-w-[1480px] mx-auto flex flex-row items-center bg-white"
+      >
+        <div class="checkbox">
+          <input type="checkbox" />
+        </div>
+        <div class="1 ml-[16px]">
+          <p>1</p>
+        </div>
+        <div class="name ml-[3rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">Emilie Kirlin</p>
+        </div>
+        <div
+          class="postion ml-20 flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <p class="position-name font-semibold">Orthotist OR Prosthetist</p>
+        </div>
+        <div class="seniority ml-[6.5rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">assistant</p>
+        </div>
+        <div class="project ml-[8.9rem] flex items-center gap-1 shrink-0">
+          <div
+            class="w-[70px] bg-yellow-300 text-center rounded-[4px] shadow-sm cursor-pointer"
+          >
+            <p class="text-xs font-bold">Webshop</p>
+          </div>
+        </div>
+        <div class="salary-number ml-[4.3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$5,319.00</p>
+        </div>
+        <div class="taxes-number ml-[3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$4,308.39</p>
+        </div>
+        <div class="active-status ml-[4.3rem] flex items-center gap-1 shrink-0">
+          <img
+            src="images/wrong-delete-remove-trash-svgrepo-com.svg"
+            width="20px"
+            alt=""
+          />
+        </div>
+        <div class="hired-number ml-[5rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">25-09-2015</p>
+        </div>
+        <div
+          class="action ml-[4.7rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <img src="images/edit-svgrepo-com.svg" width="15px" alt="" />
+          <img src="images/trash-svgrepo-com.svg" width="15px" alt="" />
+        </div>
+      </div>
+      <div
+        class="col-2 w-[1480px] px-2 py-2 max-w-[1480px] mx-auto flex flex-row items-center bg-white border-t-[1px] border-gray-300"
+      >
+        <div class="checkbox">
+          <input type="checkbox" />
+        </div>
+        <div class="2 ml-[16px]">
+          <p>2</p>
+        </div>
+        <div class="name ml-[2.5rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold text-center leading-[1.1]">
+            <span class="block">Marjory</span><span>Franecki PhD</span>
+          </p>
+        </div>
+        <div
+          class="postion ml-[7.5rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <p class="position-name font-semibold">Boilermaker</p>
+        </div>
+        <div class="seniority ml-[9.9rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">senior</p>
+        </div>
+        <div class="project ml-[9.5rem] flex items-center gap-1 shrink-0">
+          <div
+            class="w-[70px] bg-green-500 text-center rounded-[4px] shadow-sm cursor-pointer"
+          >
+            <p class="text-xs font-medium text-white">Enso SPA</p>
+          </div>
+        </div>
+        <div class="salary-number ml-[4.3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$2,833.00</p>
+        </div>
+        <div class="taxes-number ml-[3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$2,294.73</p>
+        </div>
+        <div class="active-status ml-[4.2rem] flex items-center shrink-0">
+          <img
+            src="images/check-mark-square-svgrepo-com.svg"
+            width="25px"
+            alt=""
+          />
+        </div>
+        <div class="hired-number ml-[4.8rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">21-06-2017</p>
+        </div>
+        <div
+          class="action ml-[4.9rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <img src="images/edit-svgrepo-com.svg" width="15px" alt="" />
+          <img src="images/trash-svgrepo-com.svg" width="15px" alt="" />
+        </div>
+      </div>
+      <div
+        class="col-3 w-[1480px] px-2 py-1 max-w-[1480px] mx-auto flex flex-row items-center bg-white border-t-[1px] border-gray-300"
+      >
+        <div class="checkbox">
+          <input type="checkbox" />
+        </div>
+        <div class="3 ml-[16px]">
+          <p>3</p>
+        </div>
+        <div class="name ml-[2.8rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">Barry Brown</p>
+        </div>
+        <div
+          class="postion ml-[5.5rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <p class="position-name font-semibold">Motorboat Mechanic</p>
+        </div>
+        <div class="seniority ml-[8rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">staff</p>
+        </div>
+        <div class="project ml-[10.1rem] flex items-center gap-1 shrink-0">
+          <div
+            class="w-[70px] bg-green-500 text-center rounded-[4px] shadow-sm cursor-pointer"
+          >
+            <p class="text-xs font-medium text-white">Enso SPA</p>
+          </div>
+        </div>
+        <div class="salary-number ml-[4.3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$1,106.00</p>
+        </div>
+        <div class="taxes-number ml-[3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$895.86</p>
+        </div>
+        <div class="active-status ml-[5.2rem] flex items-center shrink-0">
+          <img
+            src="images/check-mark-square-svgrepo-com.svg"
+            width="25px"
+            alt=""
+          />
+        </div>
+        <div class="hired-number ml-[4.8rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">03-01-2018</p>
+        </div>
+        <div
+          class="action ml-[4.9rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <img src="images/edit-svgrepo-com.svg" width="15px" alt="" />
+          <img src="images/trash-svgrepo-com.svg" width="15px" alt="" />
+        </div>
+      </div>
+      <div
+        class="col-4 w-[1480px] px-2 py-2 max-w-[1480px] mx-auto flex flex-row items-center bg-white border-t-[1px] border-gray-300"
+      >
+        <div class="checkbox">
+          <input type="checkbox" />
+        </div>
+        <div class="4 ml-[16px]">
+          <p>4</p>
+        </div>
+        <div class="name ml-[2.5rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold text-center leading-[1.1]">
+            <span class="block">Mara Renner</span><span>MD</span>
+          </p>
+        </div>
+        <div
+          class="postion ml-[6.2rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <p class="position-name font-semibold">Recreation Worker</p>
+        </div>
+        <div class="seniority ml-[8.5rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">staff</p>
+        </div>
+        <div class="project ml-[10.1rem] flex items-center gap-1 shrink-0">
+          <div
+            class="w-[70px] bg-[#4397fd] text-center rounded-[4px] shadow-sm cursor-pointer"
+          >
+            <p class="text-xs font-medium text-white">AdminLTE</p>
+          </div>
+        </div>
+        <div class="salary-number ml-[4.3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$2,655.00</p>
+        </div>
+        <div class="taxes-number ml-[3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$2,150.55</p>
+        </div>
+        <div class="active-status ml-[4.2rem] flex items-center shrink-0">
+          <img
+            src="images/check-mark-square-svgrepo-com.svg"
+            width="25px"
+            alt=""
+          />
+        </div>
+        <div class="hired-number ml-[4.8rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">23-08-2016</p>
+        </div>
+        <div
+          class="action ml-[4.9rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <img src="images/edit-svgrepo-com.svg" width="15px" alt="" />
+          <img src="images/trash-svgrepo-com.svg" width="15px" alt="" />
+        </div>
+      </div>
+      <div
+        class="col-5 w-[1480px] px-2 py-1 max-w-[1480px] mx-auto flex flex-row items-center bg-white border-t-[1px] border-gray-300"
+      >
+        <div class="checkbox">
+          <input type="checkbox" />
+        </div>
+        <div class="5 ml-[16px]">
+          <p>5</p>
+        </div>
+        <div class="name ml-[2.6rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">Moises Kihn</p>
+        </div>
+        <div
+          class="postion ml-[7.8rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <p class="position-name font-semibold">Audiologist</p>
+        </div>
+        <div class="seniority ml-[9.4rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">associate</p>
+        </div>
+        <div class="project ml-[8.9rem] flex items-center gap-1 shrink-0">
+          <div
+            class="w-[70px] bg-[#4397fd] text-center rounded-[4px] shadow-sm cursor-pointer"
+          >
+            <p class="text-xs font-medium text-white">AdminLTE</p>
+          </div>
+        </div>
+        <div class="salary-number ml-[4.3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$4,908.00</p>
+        </div>
+        <div class="taxes-number ml-[3rem] flex items-center gap-1 shrink-0">
+          <p class="tracking-widest">$3,975.48</p>
+        </div>
+        <div class="active-status ml-[4.4rem] flex items-center gap-1 shrink-0">
+          <img
+            src="images/wrong-delete-remove-trash-svgrepo-com.svg"
+            width="20px"
+            alt=""
+          />
+        </div>
+        <div class="hired-number ml-[5rem] flex items-center gap-1 shrink-0">
+          <p class="font-semibold">02-09-2015</p>
+        </div>
+        <div
+          class="action ml-[4.8rem] flex items-center gap-1 shrink-0 cursor-pointer"
+        >
+          <img src="images/edit-svgrepo-com.svg" width="15px" alt="" />
+          <img src="images/trash-svgrepo-com.svg" width="15px" alt="" />
         </div>
       </div>
     </div>

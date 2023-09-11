@@ -7,13 +7,16 @@
   margin: 0;
 }
 
+.table-container {
+  outline: solid 1px rgb(206, 204, 204);
+}
 .search-input input {
   padding: 4px;
   border: 1px solid #dad6d6;
   border-radius: 15px;
-  width: 25rem;
-  padding: 5px 30px;
-  font-size: 16px;
+  width: 30rem;
+  padding: 6px 30px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -25,4 +28,17 @@
 .search-input input:focus,
 .search-input input:active {
   outline: none;
+}
+
+.table-categories {
+  border-bottom: 1px solid #dad6d6;
+}
+
+.position-name {
+  color: rgba(0, 170, 255, 0.886);
+}
+
+.salary-number p,
+.taxes-number p {
+  font-family: "Stardos Stencil", cursive;
 }

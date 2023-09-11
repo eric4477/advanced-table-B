@@ -543,6 +543,62 @@ video {
   margin-right: auto;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.ml-\[14px\] {
+  margin-left: 14px;
+}
+
+.ml-\[16px\] {
+  margin-left: 16px;
+}
+
+.ml-\[2rem\] {
+  margin-left: 2rem;
+}
+
+.ml-\[3rem\] {
+  margin-left: 3rem;
+}
+
+.ml-\[4\.5rem\] {
+  margin-left: 4.5rem;
+}
+
+.ml-\[4rem\] {
+  margin-left: 4rem;
+}
+
+.ml-\[5rem\] {
+  margin-left: 5rem;
+}
+
+.ml-\[6\.5rem\] {
+  margin-left: 6.5rem;
+}
+
+.ml-\[8rem\] {
+  margin-left: 8rem;
+}
+
+.ml-\[9rem\] {
+  margin-left: 9rem;
+}
+
 .mt-\[2rem\] {
   margin-top: 2rem;
 }
@@ -551,8 +607,160 @@ video {
   margin-top: 4rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
+.ml-\[2\.5rem\] {
+  margin-left: 2.5rem;
+}
+
+.ml-\[4\.7rem\] {
+  margin-left: 4.7rem;
+}
+
+.ml-\[4\.6rem\] {
+  margin-left: 4.6rem;
+}
+
+.ml-\[7rem\] {
+  margin-left: 7rem;
+}
+
+.ml-\[6em\] {
+  margin-left: 6em;
+}
+
+.ml-\[5em\] {
+  margin-left: 5em;
+}
+
+.ml-\[4\.2rem\] {
+  margin-left: 4.2rem;
+}
+
+.ml-\[4\.3rem\] {
+  margin-left: 4.3rem;
+}
+
+.ml-\[8\.5rem\] {
+  margin-left: 8.5rem;
+}
+
+.ml-\[8\.7rem\] {
+  margin-left: 8.7rem;
+}
+
+.ml-\[8\.8rem\] {
+  margin-left: 8.8rem;
+}
+
+.ml-\[8\.9rem\] {
+  margin-left: 8.9rem;
+}
+
+.ml-11 {
+  margin-left: 2.75rem;
+}
+
+.ml-\[7\.3rem\] {
+  margin-left: 7.3rem;
+}
+
+.ml-\[7\.4rem\] {
+  margin-left: 7.4rem;
+}
+
+.ml-\[7\.5rem\] {
+  margin-left: 7.5rem;
+}
+
+.ml-\[10rem\] {
+  margin-left: 10rem;
+}
+
+.ml-\[9\.9rem\] {
+  margin-left: 9.9rem;
+}
+
+.ml-\[9\.2rem\] {
+  margin-left: 9.2rem;
+}
+
+.ml-\[9\.5rem\] {
+  margin-left: 9.5rem;
+}
+
+.ml-\[4\.1rem\] {
+  margin-left: 4.1rem;
+}
+
+.ml-\[6rem\] {
+  margin-left: 6rem;
+}
+
+.ml-\[4\.8rem\] {
+  margin-left: 4.8rem;
+}
+
+.ml-\[4\.9rem\] {
+  margin-left: 4.9rem;
+}
+
+.ml-\[2\.7rem\] {
+  margin-left: 2.7rem;
+}
+
+.ml-\[2\.8rem\] {
+  margin-left: 2.8rem;
+}
+
+.ml-\[5\.5rem\] {
+  margin-left: 5.5rem;
+}
+
+.ml-\[10\.1rem\] {
+  margin-left: 10.1rem;
+}
+
+.ml-\[5\.2rem\] {
+  margin-left: 5.2rem;
+}
+
+.ml-\[5\.3rem\] {
+  margin-left: 5.3rem;
+}
+
+.ml-\[5\.4rem\] {
+  margin-left: 5.4rem;
+}
+
+.ml-\[5\.1rem\] {
+  margin-left: 5.1rem;
+}
+
+.ml-\[4\.4rem\] {
+  margin-left: 4.4rem;
+}
+
+.ml-\[6\.2rem\] {
+  margin-left: 6.2rem;
+}
+
+.ml-\[8\.4rem\] {
+  margin-left: 8.4rem;
+}
+
+.ml-\[2\.6rem\] {
+  margin-left: 2.6rem;
+}
+
+.ml-\[7\.8rem\] {
+  margin-left: 7.8rem;
+}
+
+.ml-\[9\.4rem\] {
+  margin-left: 9.4rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -613,6 +821,10 @@ video {
 
 .w-\[65px\] {
   width: 65px;
+}
+
+.w-\[70px\] {
+  width: 70px;
 }
 
 .w-\[75px\] {
@@ -713,6 +925,10 @@ video {
   border-width: 1px;
 }
 
+.border-t-\[1px\] {
+  border-top-width: 1px;
+}
+
 .border-\[\#ccc5b9\] {
   --tw-border-opacity: 1;
   border-color: rgb(204 197 185 / var(--tw-border-opacity));
@@ -738,8 +954,69 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.p-2 {
-  padding: 0.5rem;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-blue-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3474ff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 116 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#527dd8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 125 216 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#4977dc\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(73 119 220 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3d75ec\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 117 236 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#4397fd\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 151 253 / var(--tw-bg-opacity));
 }
 
 .p-\[7px\] {
@@ -766,6 +1043,18 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -775,13 +1064,47 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-\[1\] {
+  line-height: 1;
+}
+
+.leading-\[1\.1\] {
+  line-height: 1.1;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-\[\#ccc5b9\] {
   --tw-text-opacity: 1;
   color: rgb(204 197 185 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-md {
@@ -801,13 +1124,17 @@ video {
   margin: 0;
 }
 
+.table-container {
+  outline: solid 1px rgb(206, 204, 204);
+}
+
 .search-input input {
   padding: 4px;
   border: 1px solid #dad6d6;
   border-radius: 15px;
-  width: 25rem;
-  padding: 5px 30px;
-  font-size: 16px;
+  width: 30rem;
+  padding: 6px 30px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -820,4 +1147,17 @@ video {
 .search-input input:focus,
 .search-input input:active {
   outline: none;
+}
+
+.table-categories {
+  border-bottom: 1px solid #dad6d6;
+}
+
+.position-name {
+  color: rgba(0, 170, 255, 0.886);
+}
+
+.salary-number p,
+.taxes-number p {
+  font-family: "Stardos Stencil", cursive;
 }
