@@ -6,5 +6,175 @@
     <link rel="stylesheet" href="dist/main.css" />
     <title>advanced table</title>
   </head>
-  <body></body>
+  <body>
+    <div
+      class="table-info-container w-[1480px] max-w-[1480px] mt-[4rem] mx-auto flex gap-5"
+    >
+      <div
+        class="active px-2 py-1 w-[180px] rounded-lg shadow-md border-[1px] border-[#ccc5b9]"
+      >
+        <div class="active-title text-center font-bold">
+          <h3>Active</h3>
+        </div>
+        <div class="active-buttons flex py-1">
+          <div
+            class="checkmark w-[35%] border flex justify-center rounded-l-[0.2rem] cursor-pointer"
+          >
+            <img src="images/icons8-done-26.png" alt="" />
+          </div>
+          <div class="x w-[35%] border flex justify-center cursor-pointer">
+            <img src="images/icons8-x-26.png" alt="" />
+          </div>
+          <div
+            class="shutdown w-[35%] border flex rounded-r-[0.2rem] bg-blue-500 justify-center cursor-pointer"
+          >
+            <img src="images/icons8-shutdown-25.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="seniority px-1 py-1 w-[350px] rounded-lg shadow-md border-[1px] border-[#ccc5b9]"
+      >
+        <div class="seniority-title text-center font-bold">
+          <h3>Seniority</h3>
+        </div>
+        <div
+          class="w-[310px] mx-auto rounded-[4px] border-[1px] py-2 border-[#ccc5b9] p-[7px] shadow-sm flex justify-end cursor-pointer"
+        >
+          <img src="images/icons8-chevron-15.png" alt="" />
+        </div>
+      </div>
+      <div
+        class="hired px-2 py-1 w-[520px] rounded-lg shadow-md border-[1px] border-[#ccc5b9]"
+      >
+        <div class="hired-title text-center font-bold">
+          <h3>Hired Between</h3>
+        </div>
+        <div class="from-to-container flex gap-5 shrink-0">
+          <div
+            class="w-[260px] rounded-md border-[1px] border-[#ccc5b9] shadow-sm flex gap-3 text-[#ccc5b9] px-2 py-1 cursor-pointer"
+          >
+            <img src="images/icons8-calender-20.png" alt="" />
+            <h3>From</h3>
+          </div>
+          <div
+            class="w-[260px] rounded-md border-[1px] border-[#ccc5b9] shadow-sm flex gap-3 text-[#ccc5b9] px-2 py-1 cursor-pointer"
+          >
+            <img src="images/icons8-calender-20.png" alt="" />
+            <h3>To</h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hired px-2 py-1 w-[400px] rounded-lg shadow-md border-[1px] border-[#ccc5b9]"
+      >
+        <div class="hired-title text-center font-bold">
+          <h3>Salary</h3>
+        </div>
+        <div class="min-max-container shrink-0 flex gap-5">
+          <div
+            class="w-[200px] rounded-sm border-[1px] border-[#ccc5b9] shadow-sm flex gap-3 text-[#ccc5b9] px-2 py-1 cursor-pointer"
+          >
+            <h3>Min</h3>
+          </div>
+          <div
+            class="w-[200px] rounded-sm border-[1px] border-[#ccc5b9] shadow-sm flex gap-3 text-[#ccc5b9] px-2 py-1 cursor-pointer"
+          >
+            <h3>Max</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="table-container w-[1480px] flex flex-col max-w-[1480px] mt-[2rem] mx-auto border border-gray-300 rounded-md bg-gray-100"
+    >
+      <div class="table-header flex flex-row p-2 justify-between">
+        <div class="header-icons-left flex flex-row gap-1">
+          <div
+            class="list-number w-[55px] h-[30px] flex items-center px-2 py-2 gap-2 bg-[#fff] border rounded-[4px] shadow-sm border-gray-300 cursor-pointer"
+          >
+            <p>10</p>
+            <div class="shrink-0">
+              <img src="images/icons8-chevron-15.png" width="10px" alt="" />
+            </div>
+          </div>
+          <div
+            class="seen w-[65px] h-[30px] flex items-center px-2 py-2 justify-between bg-[#fff] shadow-sm border rounded-[4px] border-gray-300 cursor-pointer"
+          >
+            <div class="shrink-0">
+              <img src="images/eye-svgrepo-com.svg" width="15px" alt="" />
+            </div>
+            <div class="shrink-0">
+              <img src="images/icons8-chevron-15.png" width="10px" alt="" />
+            </div>
+          </div>
+          <div
+            class="calender w-[65px] h-[30px] flex items-center px-2 py-2 justify-between bg-[#fff] shadow-sm border rounded-[4px] border-gray-300 cursor-pointer"
+          >
+            <div class="shrink-0">
+              <img src="images/calender-svgrepo-com.svg" width="15px" alt="" />
+            </div>
+            <div class="shrink-0">
+              <img src="images/icons8-chevron-15.png" width="10px" alt="" />
+            </div>
+          </div>
+          <div
+            class="reverse w-[32px] h-[30px] flex items-center px-2 py-2 bg-[#fff] border shadow-sm rounded-[4px] border-gray-300 cursor-pointer"
+          >
+            <div class="shrink-0">
+              <img
+                src="images/reload-symbol-svgrepo-com.svg"
+                width="15px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="reverse w-[32px] h-[30px] flex items-center px-2 py-2 bg-[#fff] border shadow-sm rounded-[4px] border-gray-300 cursor-pointer"
+          >
+            <div class="shrink-0">
+              <img src="images/reload-svgrepo-com.svg" width="10px" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="search-input text-sm">
+          <div class="wrap relative">
+            <img
+              class="search-icon"
+              src="images/search-4-svgrepo-com.svg"
+              width="25px"
+              alt=""
+            />
+            <input class="shadow-sm" type="text" placeholder="search" />
+          </div>
+        </div>
+        <div class="header-icons-right flex flex-row gap-1">
+          <div
+            class="excel w-[75px] h-[30px] flex gap-1 items-center px-2 py-2 bg-[#fff] border shadow-sm rounded-[4px] border-gray-300 cursor-pointer"
+          >
+            <p>Excel</p>
+            <div class="shrink-0">
+              <img
+                src="images/excel-file-svgrepo-com.svg"
+                width="15px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="create w-[80px] h-[30px] flex gap-[2px] items-center px-2 py-1 bg-[#fff] border shadow-sm rounded-[4px] border-gray-300 cursor-pointer"
+          >
+            <p>Create</p>
+            <div class="shrink-0">
+              <img
+                src="images/plus-large-svgrepo-com.svg"
+                width="15px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
